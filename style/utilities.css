@@ -9,10 +9,12 @@
 body{
     font-family: Roboto;
     font-size: 14px;
+    min-width: 1200px;
 }
 
 :root{
     --main-color: #0061fe;
+    --jumbo-color: #b4d0e6;
     --usually-white: #ffffff;
     --usually-black: #000000;
 }

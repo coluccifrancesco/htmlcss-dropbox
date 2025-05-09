@@ -1,3 +1,66 @@
 [class^="col"]{
     padding: 1rem;
 }
+
+/* #region jumbo */
+section{
+    padding-top: 120px;
+    background-color: var(--jumbo-color);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 30px;
+
+    .main-div{
+        max-width: 1200px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+
+        h2{
+            max-width: 85%;
+            font-size: 80px;
+        }
+
+        ul{
+            margin-top: 30px;
+            list-style: none;
+            margin-bottom: -35px;
+
+            li:not(:last-child){
+                font-size: 16px;
+                margin: 2rem 0;
+            }
+
+            li{
+                a{
+                    font-size: 60px;
+                }
+            }
+
+            .descrizione{
+                max-width: 24%;
+            }
+
+            button{
+                cursor: pointer;
+                background-color: var(--main-color);
+                color: var(--usually-white);
+                padding: 10px 15px;
+                border-radius: 2px;
+            }
+        }
+    }
+}
+
+
+
+.jumbo{
+    position: absolute;
+    width: 60%;
+    bottom: -91px;
+    right: 140px;
+}
+
+/* #endregion jumbo */
