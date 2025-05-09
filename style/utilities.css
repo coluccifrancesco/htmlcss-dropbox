@@ -12,6 +12,10 @@ body{
     min-width: 1200px;
 }
 
+button{
+    border: 0;
+}
+
 :root{
     --main-color: #0061fe;
     --jumbo-color: #b4d0e6;
