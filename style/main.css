@@ -1,5 +1,9 @@
-/* #region jumbo */
+[class^="col"] {
+    padding: 0 1rem;
+}
 
+
+/* #region jumbo */
 .jumbo-section {
     padding-top: 120px;
     background-color: var(--jumbo-color);
@@ -53,8 +57,8 @@
 }
 
 .jumbo {
-    max-width: 60%;
-    margin-bottom: -55px;
+    max-width: 70%;
+    margin-bottom: -30px;
 }
 
 /* #endregion jumbo */
@@ -122,7 +126,7 @@
 /* #region grid */
 .container{
     max-width: 1200px;
-    width: 80%;
+    width: 83%;
     margin: 0 auto;
 }
 
@@ -251,84 +255,95 @@
             }
         }
     }
-}
 
-.prova-acquista{
-    width: 80%;
-    margin: 0 auto;
-
-    button{
-        width: 100%;
-        background-color: var(--main-color);
-        color: var(--usually-white);
-        padding: 10px 0;
-        margin: 20px 0;
-    }
-
-    button:hover{
-        background-color: var(--usually-white);
-        color: var(--main-color);
-        box-shadow: 0px 0px 2px var(--main-color);
-        cursor: pointer;
-    }
-
-    .link{
-        margin-top: 10px;
-
-        a{
+    .prova-acquista{
+        width: 80%;
+        margin: 0 auto;
+    
+        button{
+            width: 100%;
+            background-color: var(--main-color);
+            color: var(--usually-white);
+            padding: 10px 0;
+            margin: 20px 0;
+        }
+    
+        button:hover{
+            background-color: var(--usually-white);
             color: var(--main-color);
-            text-decoration: underline;
+            box-shadow: 0px 0px 2px var(--main-color);
             cursor: pointer;
         }
 
-        a:hover{
+        button:active{
+            box-shadow: 0px 0px 2px orange;
             color: orange;
         }
-    }
-
-    .partial-border{
-        display: flex;
-        margin: 25px 0 ;
-        color: var(--borders-grey);
-
-        p{
-            margin: 0 -1px;
-        }
-    }
-}
-
-.punti-container{
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 15px;
     
-    margin-bottom: 30px;
-
-    ul{
-        list-style: none;
-    }
-
-    .display-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-        div{
-            display: flex;
-            align-items: baseline;
-
-            h4{
-                margin-bottom: 10px;
+        .link{
+            margin-top: 10px;
+    
+            a{
+                color: var(--main-color);
+                text-decoration: underline;
+                cursor: pointer;
+            }
+    
+            a:hover{
+                text-shadow: 0px 0px 2px var(--main-color);
+                color: var(--usually-white);
             }
 
-            i{
-                color: var(--main-color);
-                margin-right: 10px;
+            a:active{
+                color: orange;
+                text-shadow: none;
             }
         }
-
-        .div-margin{
-            padding: 20px 0;
+    
+        .partial-border{
+            display: flex;
+            margin: 25px 0 ;
+            color: var(--borders-grey);
+    
+            p{
+                margin: 0 -1px;
+            }
+        }
+    }
+    
+    .punti-container{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 15px;
+        
+        margin-bottom: 30px;
+    
+        ul{
+            list-style: none;
+        }
+    
+        .display-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+    
+            div{
+                display: flex;
+                align-items: baseline;
+    
+                h4{
+                    margin-bottom: 10px;
+                }
+    
+                i{
+                    color: var(--main-color);
+                    margin-right: 10px;
+                }
+            }
+    
+            .div-margin{
+                padding: 20px 0;
+            }
         }
     }
 }
