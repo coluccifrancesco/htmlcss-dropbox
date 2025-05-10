@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    border: 1px dashed black;   /* <--DEBUG */
+/* border: 1px dashed black;   /* <--DEBUG */
 }
 
 body{
@@ -21,6 +21,7 @@ button{
     --jumbo-color: #b4d0e6;
     --usually-white: #ffffff;
     --usually-black: #000000;
+    --borders-grey: #D4D4D6;
 }
 
 .flex{
