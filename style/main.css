@@ -76,15 +76,14 @@
 }
 
 .fatturazione-container{
-    width: 80%;
-    margin: 0 auto;
     display: inline-block;
     margin-bottom: 40px;
 
     .allineamento-scelte{
         display: flex;
         flex-direction: column;
-        align-items: start;
+        margin: 0 auto;
+        padding: 0 1rem;
     }
 
     h2{
@@ -133,7 +132,6 @@
 
 .container{
     max-width: 1200px;
-    width: 83%;
     margin: 0 auto;
 }
 
@@ -151,7 +149,7 @@
 }
 
 
-/* Column */
+/* #region Column */
 .col-1{
     max-width: calc(100% / 12 * 1);
 }
@@ -199,8 +197,9 @@
 .col-12{
     max-width: 100%;
 }
+/* #endregion Column */
 
-/* card */
+/* #region card */
 .card-piano{
     margin: 0 auto;
     display: flex;
@@ -423,5 +422,69 @@
     }
 
 }
+/* #endregion card */
 
 /* #endregion grid */
+
+/* #region partner */
+
+.partners{
+    margin: 150px auto;
+
+    .row{
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .col-5{
+
+        div{
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 2rem;
+            width: 80%;
+        }
+
+        h1{
+            line-height: 30px;
+        }
+
+        p{
+            line-height: 22px;
+        }
+
+        button{
+            background-color: var(--main-white);
+            color: var(--usually-black);
+            padding: 10px 15px;
+            margin: 20px 0;
+            border: 1px solid var(--usually-black);
+        }
+    
+        button:hover{
+            background-color: var(--usually-white);
+            color: var(--main-color);
+            border: 1px solid var(--main-color);
+            cursor: pointer;
+        }
+
+        button:active{
+            color: orange;
+            border: 1px solid orange;
+        }
+    }
+}
+
+/* #endregion partner */
+
+/* #region gridof6 */
+
+
+
+/* #endregion gridof6 */
