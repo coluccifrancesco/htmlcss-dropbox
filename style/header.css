@@ -1,13 +1,12 @@
 .header-nav{
     min-width: 100%;
-    padding: 1rem;
+    padding: 1.3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--usually-white);
     position: fixed;
     z-index: 1000;
-    margin-top: -4px;
     margin-left: -3px;
 }
 
@@ -19,9 +18,12 @@
     align-items: center;
     
     li{
-        cursor: pointer;
         display: inline-block;
         margin: 0 1rem;
+
+        li{
+            cursor: pointer;
+        }
 
         button{
             cursor: pointer;
