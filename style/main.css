@@ -8,7 +8,7 @@ a {
 
 /* #region jumbo */
 .jumbo-section {
-    padding-top: 120px;
+    padding-top: 100px;
     background-color: var(--jumbo-color);
     display: flex;
     flex-direction: column;
@@ -43,6 +43,7 @@ a {
                 font-size: 60px;
                 margin-top: 30px;
                 cursor: pointer;
+                color: var(--usually-black);
             }
 
             .descrizione {
