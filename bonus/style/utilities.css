@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 70px;
+    scroll-behavior: smooth;
+
+/* border: 1px dashed black;   /* <--DEBUG */
+}
+
+body{
+    font-family: Roboto;
+    font-size: 14px;
+    min-width: 1200px;
+}
+
+button{
+    border: 0;
+}
+
+:root{
+    --main-color: #0061fe;
+    --jumbo-color: #b4d0e6;
+    --usually-white: #ffffff;
+    --usually-black: #000000;
+    --borders-grey: #D4D4D6;
+}
+
+.flex{
+    display: flex;
+}
