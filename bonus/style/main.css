@@ -264,6 +264,10 @@ a {
             div{
                 display: flex;
                 margin: 10px 0;
+
+                span{
+                    color: var(--usually-white);
+                }
             }
         }
     }
