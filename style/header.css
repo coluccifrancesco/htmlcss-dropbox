@@ -30,5 +30,19 @@
             padding: 5px 10px;
             border-radius: 1px;
         }
+
+        button:hover{
+            background-color: var(--usually-white);
+            color: var(--main-color);
+            box-shadow: 0px 0px 2px var(--main-color);
+            cursor: pointer;
+        }
+
+        button:active{
+            box-shadow: 0px 0px 2px orange;
+            color: orange;
+        }
     }
+
+
 }
