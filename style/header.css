@@ -20,9 +20,11 @@
     li{
         display: inline-block;
         margin: 0 1rem;
+        cursor: pointer;
 
-        li{
-            cursor: pointer;
+        a:hover{
+            border-bottom: 2px solid var(--main-color);
+            padding-bottom: 26px;
         }
 
         button{
@@ -45,6 +47,9 @@
             color: orange;
         }
     }
+}
 
-
+.header-list a{
+    text-decoration: none;
+    color: var(--usually-black);
 }

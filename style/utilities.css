@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-padding-top: 70px;
+    scroll-behavior: smooth;
 
 /* border: 1px dashed black;   /* <--DEBUG */
 }

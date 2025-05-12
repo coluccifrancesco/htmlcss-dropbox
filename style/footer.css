@@ -70,3 +70,8 @@ footer{
         }
     }
 }
+
+.footer-list a {
+    color: var(--usually-white);
+    text-decoration: none;
+}
