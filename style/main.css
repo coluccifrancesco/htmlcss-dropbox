@@ -15,6 +15,7 @@
 
     .dimensioni {
         width: 80%;
+        max-width: 1200px;
         display: flex;
         flex-direction: column;
         padding-bottom: 10px;
@@ -125,6 +126,11 @@
 
 
 /* #region grid */
+.grid-section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .container{
     max-width: 1200px;
     width: 83%;
@@ -291,8 +297,7 @@
             }
     
             a:hover{
-                text-shadow: 0px 0px 2px var(--main-color);
-                color: var(--usually-white);
+                text-decoration: none;
             }
 
             a:active{
